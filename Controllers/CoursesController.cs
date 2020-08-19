@@ -5,11 +5,11 @@ namespace MyCourse.Controllers
     public class CoursesController : Controller
     {
         public IActionResult Index(){
-            return   Content("Sono Index");        
+            return   View();        
         }
 
         public IActionResult Detail(int id){
-            return   Content($"Sono il dettaglio Index {id}");        
+            return   View();        
         }
     }
 }
